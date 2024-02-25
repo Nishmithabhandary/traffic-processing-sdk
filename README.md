@@ -1,8 +1,9 @@
 # Steps to use SDK
 
 ### 1)Clone the repository
-git clone <repository-url>
-cd <repository-directory>
+git clone repository-url
+
+cd repository-directory
 
 ### 2)Install Dependencies:
 Ensure you have Python installed. Install the required dependencies using:
