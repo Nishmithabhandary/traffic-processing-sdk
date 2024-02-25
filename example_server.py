@@ -1,4 +1,4 @@
-# traffic_sdk/example_server.py
+
 from flask import Flask, request, jsonify
 from traffic_sdk.sdk import TrafficSDK
 
