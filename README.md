@@ -17,6 +17,7 @@ sdk = TrafficSDK(topic='new-sdk', limit=10, client_id='example-producer', broker
 ### 4)Integrate SDK in Server Routes:
 In your server routes, use the SDK methods to process requests and responses.
 
+ 
 @app.route('/api/test', methods=['POST'])
 def test_endpoint():
     sdk.process_request(request)
@@ -44,6 +45,7 @@ python example_server.py
 Use a tool like cURL, Postman, or Invoke-RestMethod to send requests to your server's API endpoint.
 
 Example using Invoke-RestMethod in PowerShell:
+
 Invoke-RestMethod -Uri 'http://127.0.0.1:4000/api/test' -Method 'POST' -Body '{"key": "value"}' -Headers @{'Content-Type'='application/json'}
 
 ### 7)Check Console Logs:
